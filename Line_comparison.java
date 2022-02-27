@@ -38,7 +38,8 @@ public class Line_comparison {
       Double len2=f.length(p1,q1,p2,q2);
 		System.out.println("Second Line length is : "+len2+"");
 
-		System.out.println(len1.equals(len2));
+		 System.out.println(len1.equals(len2));
+      System.out.println(len1.compareTo(len2));
    }
 }
 
